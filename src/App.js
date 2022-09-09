@@ -3,18 +3,12 @@ import './App.css';
 import React from 'react'
 import Banner from './banner';
 import EventData2 from './event-data';
+import RefsArray  from './refs-array';
+import Cart from './state-class'
+import MessageBox from './state-func';
 
 function App() {
-   const divStyle = {
-    color : 'red',
-    backgroundColor : 'powderblue',
-    fontSize : 'larger',
-    padding : '10px',
-    margin : '30px' ,
-    border : '3px' 
-   }
-   return <EventData2/>
-   
+   return <MessageBox/>
    
 }
 
